@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
 
-$primary: #DA9F5B;
+$primary: #5f0000;
 $secondary: #33211D;
 $light: #FFFBF2;
 $dark: #111111;
@@ -13,7 +13,7 @@ sans-serif;
 
 $body-bg: $light;
 
-$body-color: #555555;
+$body-color: #573b3b;
 
 $headings-color: $secondary;
 
@@ -150,7 +150,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(51, 33, 29, .7);
+    background: rgba(120, 22, 0, 0.7);
     z-index: 1;
 }
 
@@ -215,15 +215,6 @@ h6,
     transition: .5s;
 }
 
-.testimonial-carousel .owl-dot.active {
-    width: 40px;
-    background: $secondary
-}
-
-.testimonial-carousel .owl-item img {
-    width: 80px;
-    height: 80px;
-}
 
 .contact-form .help-block ul {
     margin: 0;
@@ -231,11 +222,10 @@ h6,
     list-style-type: none;
 }
 
-.reservation,
 .page-header,
 .offer,
 .footer {
-    background: linear-gradient(rgba(51, 33, 29, .9), rgba(51, 33, 29, .9)), url(../img/bg.jpg);
+    background: linear-gradient(rgba(97, 23, 23, 0.9), rgba(41, 4, 4, 0.9)), url(../img/bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
