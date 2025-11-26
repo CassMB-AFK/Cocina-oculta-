@@ -19,8 +19,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #DA9F5B;
-  --secondary: #33211D;
+  --primary: #581818;
+  --secondary: #000000;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-  color: #DA9F5B;
+  color: #da5b5b;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #be792b;
+  color: #be2b2b;
   text-decoration: underline;
 }
 
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #33211D;
+  color: #331d1d;
 }
 
 h1, .h1 {
@@ -555,7 +555,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #e83e3e;
   word-wrap: break-word;
 }
 
@@ -567,7 +567,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
   color: #fff;
-  background-color: #212529;
+  background-color: #000000;
 }
 
 kbd kbd {
